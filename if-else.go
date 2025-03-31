@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	// If-else statement
 	a := 10
 	b := 20
 
@@ -13,6 +12,14 @@ func main() {
 		fmt.Println("A is less than B")
 	} else {
 		fmt.Println("A is equal to B")
+	}
+
+	c := 10
+
+	if c%2 == 0 {
+		fmt.Println("C is even")
+	} else {
+		fmt.Println("C is odd")
 	}
 
 }
